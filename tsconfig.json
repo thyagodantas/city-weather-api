@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                        // Define o ECMAScript alvo
+      "module": "commonjs",                   // Define o sistema de módulo usado
+      "strict": true,                         // Ativa todas as verificações estritas
+      "esModuleInterop": true,                // Facilita a interoperabilidade com módulos ES
+      "skipLibCheck": true,                   // Ignora a checagem de tipo em arquivos de definição
+      "forceConsistentCasingInFileNames": true, // Impede inconsistências de nome de arquivo
+      "outDir": "./dist",                     // Define o diretório de saída
+      "rootDir": "./src",                     // Define o diretório raiz do projeto
+      "resolveJsonModule": true               // Permite a importação de arquivos JSON
+    },
+    "include": ["src/**/*.ts"],               // Inclui todos os arquivos TypeScript no diretório src
+    "exclude": ["node_modules", "dist"]       // Exclui os diretórios node_modules e dist
+  }
+  

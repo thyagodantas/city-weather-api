@@ -1,0 +1,11 @@
+{
+    "extends": "./tsconfig.json",             // Estende as configurações do tsconfig.json
+    "compilerOptions": {
+      "noEmit": false,                        // Permite a emissão dos arquivos compilados
+      "removeComments": true,                 // Remove os comentários dos arquivos compilados
+      "sourceMap": false,                     // Desativa a geração de mapas de fonte
+      "declaration": false                    // Não gera arquivos de declaração .d.ts
+    },
+    "include": ["src/**/*.ts"]                // Inclui todos os arquivos TypeScript no diretório src
+  }
+  
