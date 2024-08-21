@@ -7,7 +7,7 @@ export class CityWeatherService {
 
     constructor(private cityWeatherRepository: CityWeatherRepository) {}
     
-    private readonly apiKey: string = '8b2bd40d6c5960d6d1f42a16c44652bc';
+    private readonly apiKey: string = 'YOUR_API_KEY';
     
     public async getCityWeather(cityName: string, country: string, ipAddress: string): Promise<CityWeatherDTO> {
         const response = await axios.get('http://api.openweathermap.org/data/2.5/weather', {
