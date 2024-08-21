@@ -107,6 +107,8 @@ Exemplo de Resposta:
 
 Códigos de Status:
 
+```bash
 200 OK: A requisição foi bem-sucedida, e os dados do clima foram retornados.
 400 Bad Request: Os parâmetros de query estão ausentes ou são inválidos.
 500 Internal Server Error: Ocorreu um erro no servidor ao processar a requisição.
+```
