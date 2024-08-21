@@ -102,8 +102,6 @@ Exemplo de Resposta:
   "country": "BR",
   "temperature": 28.3,
   "description": "céu limpo",
-  "ipAddress": "192.168.1.1",
-  "searchDate": "2023-08-21T15:45:00.000Z"
 }
 ```
 
